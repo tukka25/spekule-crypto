@@ -1,0 +1,32 @@
+Endpoints:
+	"api/sayhello" :
+		body = {'symbol' : "",
+		'screener' : "",
+		'exchange' : "",
+		'interval' : ""}
+
+	"api/"uniswap" :
+		body = {}
+	"api/"jupiter" :
+		body = {}
+	"api/tradingView" :
+		body = {}
+Terminal Fetch:
+	curl -X POST http://localhost:8888/api/sayhello \
+	-H "Content-Type: application/json" \
+	-d '{body}'
+
+JavaScript Fetch:
+	bodY = {}
+	const headers_json = {
+		method: 'POST',
+		headers: {
+			Accept: 'application/json',
+			'Content-Type': 'application/json'
+		},
+		
+		body: JSON.stringify(bodY),
+		cache: 'no-cache',
+	};
+	const response = await fetch("http://localhost/api/{endpoint}/", headers_json);
+	const data = await response.json();
