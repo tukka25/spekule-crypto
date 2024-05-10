@@ -14,11 +14,30 @@ from tradingview_ta import *
 from django.contrib.auth.models import User
 from .tradingViewUtils import Interval
 import requests , re, json, random , string
+from uniswap import Uniswap
+from .dexScreenerUtils import get_token_addresses
+from dexscreener import DexscreenerClient
+
 
 @csrf_exempt
 def Uniswap(request):
 	if (request.method != "POST"):
 		return (JsonResponse({'status':'unauthorized'}, status=401))
+	try:
+		address = None         # or None if you're not going to make transactions
+		private_key = None  # or None if you're not going to make transactions
+		version = 2                       # specify which version of Uniswap to use
+		provider = "https://mainnet.infura.io/v3/7991dcb56e4447e7bf1b25fa5a18c17f"    # can also be set through the environment variable `PROVIDER`
+		uniswap = Uniswap(request=request, address=address, private_key=private_key, version=version, provider=provider)
+
+		# Some token addresses we'll be using later in this guide
+		eth = "0x0000000000000000000000000000000000000000"
+		bat = "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
+		dai = "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+		return (JsonResponse({'status': 'All Good'}, status=200))
+	except Exception as err:
+		print(str(err))
+		return (JsonResponse({'status': str(err)}, status=400))
 
 @csrf_exempt
 def sayhello(request):
@@ -60,3 +79,39 @@ def tradingView(request):
 	except Exception as err:
 		print(str(err))
 		return (JsonResponse({'status': str(err)}, status=401))
+
+@csrf_exempt
+def dexScreener(request):
+	if (request.method != "POST"):
+		return (JsonResponse({'status':'unauthorized'}, status=401))
+	try:
+		body_json = json.loads(request.body)
+		print(f"body = {len(body_json)}")
+		if (len(body_json) != 1):
+			return (JsonResponse({'status' : '1 argument should be sent'}, status=400))
+		fulltoken = body_json["token"]
+		print(f"{fulltoken}")
+		tt = fulltoken.split("/")
+		if (len(tt) == 1):
+			print("here")
+			url = "https://api.dexscreener.io/latest/dex/tokens/" + tt[0]
+			print(f"url = {url}")
+		else:
+			print("here2")
+			if (len(tt) != 2 or tt[1] == "" or tt[0] == ""):
+				return (JsonResponse({'status' : 'Invalid token'}, status=400))
+			chain = tt[0]
+			token = tt[1]
+			url = "https://api.dexscreener.io/latest/dex/pairs/" + chain + "/" + token
+			print(f"token = {token}, chain = {chain}")
+		print(f"url = {url}")
+		response = requests.get(url)
+		print(response.status_code)
+		if (response.status_code == 200):
+			data = response.json()
+			return (JsonResponse({'status': 'success', 'data': data}, status=200))
+		return (JsonResponse({'status': 'hello'}, status=400))
+	except Exception as err:
+		# print(str(err))
+		return (JsonResponse({'status': str(err)}, status=401))
+	

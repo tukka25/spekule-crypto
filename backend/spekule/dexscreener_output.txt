@@ -1,0 +1,846 @@
+chainId: bsc
+-----
+dexId: uniswap
+-----
+url: https://dexscreener.com/bsc/0xb125aa15ad943d96e813e4a06d0c34716f897e26
+-----
+pairAddress: 0xb125aa15Ad943D96e813E4A06d0c34716F897e26
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x55d398326f99059fF775485246999027B3197955', 'name': 'Tether USD', 'symbol': 'USDT'}
+-----
+priceNative: 2979.3933
+-----
+priceUsd: 2979.39
+-----
+txns: {'m5': {'buys': 4, 'sells': 8}, 'h1': {'buys': 83, 'sells': 87}, 'h6': {'buys': 585, 'sells': 428}, 'h24': {'buys': 2635, 'sells': 2852}}
+-----
+volume: {'h24': 3480999.67, 'h6': 853779.52, 'h1': 76077.66, 'm5': 2383.96}
+-----
+priceChange: {'m5': -0.12, 'h1': 0.15, 'h6': -0.92, 'h24': -0.55}
+-----
+liquidity: {'usd': 215977.73, 'base': 50.1887, 'quote': 66445}
+-----
+fdv: 1802485505
+-----
+pairCreatedAt: 1705727210000
+-----
+chainId: bsc
+-----
+dexId: pancakeswap
+-----
+url: https://dexscreener.com/bsc/0xd0e226f674bbf064f54ab47f42473ff80db98cba
+-----
+pairAddress: 0xD0e226f674bBf064f54aB47F42473fF80DB98CBA
+-----
+labels: ['v3']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.006526
+-----
+priceUsd: 2980.87
+-----
+txns: {'m5': {'buys': 4, 'sells': 0}, 'h1': {'buys': 33, 'sells': 55}, 'h6': {'buys': 391, 'sells': 303}, 'h24': {'buys': 1615, 'sells': 1391}}
+-----
+volume: {'h24': 8267612.09, 'h6': 1852513.14, 'h1': 202322.05, 'm5': 16818.3}
+-----
+priceChange: {'m5': -0.03, 'h1': 0.23, 'h6': -0.89, 'h24': -0.57}
+-----
+liquidity: {'usd': 5051929.5, 'base': 1551.558, 'quote': 717.04423}
+-----
+fdv: 1803382724
+-----
+pairCreatedAt: 1680536288000
+-----
+chainId: bsc
+-----
+dexId: pancakeswap
+-----
+url: https://dexscreener.com/bsc/0x539e0ebfffd39e54a0f7e5f8fec40ade7933a664
+-----
+pairAddress: 0x539e0EBfffd39e54A0f7E5F8FEc40ade7933A664
+-----
+labels: ['v3']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d', 'name': 'USD Coin', 'symbol': 'USDC'}
+-----
+priceNative: 2980.9666
+-----
+priceUsd: 2980.96
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 33, 'sells': 12}, 'h6': {'buys': 98, 'sells': 79}, 'h24': {'buys': 411, 'sells': 372}}
+-----
+volume: {'h24': 118073, 'h6': 16972.38, 'h1': 3885.8, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0.3, 'h6': -0.84, 'h24': -0.56}
+-----
+liquidity: {'usd': 150493.58, 'base': 19.3035, 'quote': 92950}
+-----
+fdv: 1803437336
+-----
+pairCreatedAt: 1680356039000
+-----
+chainId: bsc
+-----
+dexId: pancakeswap
+-----
+url: https://dexscreener.com/bsc/0x62fcb3c1794fb95bd8b1a97f6ad5d8a7e4943a1e
+-----
+pairAddress: 0x62Fcb3C1794FB95BD8B1A97f6Ad5D8a7e4943a1e
+-----
+labels: ['v3']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.006237
+-----
+priceUsd: 2980.70
+-----
+txns: {'m5': {'buys': 8, 'sells': 7}, 'h1': {'buys': 93, 'sells': 84}, 'h6': {'buys': 910, 'sells': 587}, 'h24': {'buys': 3744, 'sells': 2974}}
+-----
+volume: {'h24': 6577787.59, 'h6': 1687965.4, 'h1': 72201.78, 'm5': 4294.07}
+-----
+priceChange: {'m5': -0.05, 'h1': 0.26, 'h6': -0.94, 'h24': -0.53}
+-----
+liquidity: {'usd': 615777.3, 'base': 159.7508, 'quote': 234.4778}
+-----
+fdv: 1803277552
+-----
+pairCreatedAt: 1681625414000
+-----
+chainId: bsc
+-----
+dexId: pancakeswap
+-----
+url: https://dexscreener.com/bsc/0xbe141893e4c6ad9272e8c04bab7e6a10604501a5
+-----
+pairAddress: 0xBe141893E4c6AD9272e8C04BAB7E6a10604501a5
+-----
+labels: ['v3']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x55d398326f99059fF775485246999027B3197955', 'name': 'Tether USD', 'symbol': 'USDT'}
+-----
+priceNative: 2980.03255
+-----
+priceUsd: 2980.032
+-----
+txns: {'m5': {'buys': 2, 'sells': 9}, 'h1': {'buys': 82, 'sells': 64}, 'h6': {'buys': 432, 'sells': 387}, 'h24': {'buys': 1859, 'sells': 1716}}
+-----
+volume: {'h24': 4489468.1, 'h6': 1149660.1, 'h1': 147390.86, 'm5': 9556.66}
+-----
+priceChange: {'m5': -0.12, 'h1': 0.17, 'h6': -0.92, 'h24': -0.55}
+-----
+liquidity: {'usd': 1469577.08, 'base': 391.5733, 'quote': 302675}
+-----
+fdv: 1802872195
+-----
+pairCreatedAt: 1681214432000
+-----
+chainId: bsc
+-----
+dexId: thena
+-----
+url: https://dexscreener.com/bsc/0x1123e75b71019962cd4d21b0f3018a6412edb63c
+-----
+pairAddress: 0x1123E75b71019962CD4d21b0F3018a6412eDb63C
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.001720
+-----
+priceUsd: 2969.0036
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 2, 'sells': 19}, 'h6': {'buys': 63, 'sells': 107}, 'h24': {'buys': 311, 'sells': 449}}
+-----
+volume: {'h24': 4179939.84, 'h6': 943708.1, 'h1': 97029.21, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0.1, 'h6': -1.27, 'h24': -0.73}
+-----
+liquidity: {'usd': 6562936.63, 'base': 1758.9029, 'quote': 2258.6848}
+-----
+fdv: 1796199855
+-----
+chainId: bsc
+-----
+dexId: uniswap
+-----
+url: https://dexscreener.com/bsc/0x0f338ec12d3f7c3d77a4b9fcc1f95f3fb6ad0ea6
+-----
+pairAddress: 0x0f338Ec12d3f7C3D77A4B9fcC1f95F3FB6AD0EA6
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.006376
+-----
+priceUsd: 2976.50
+-----
+txns: {'m5': {'buys': 15, 'sells': 2}, 'h1': {'buys': 171, 'sells': 64}, 'h6': {'buys': 894, 'sells': 325}, 'h24': {'buys': 3526, 'sells': 2104}}
+-----
+volume: {'h24': 1287983.69, 'h6': 207104.09, 'h1': 22898.3, 'm5': 2233.58}
+-----
+priceChange: {'m5': 0.08, 'h1': 0.22, 'h6': -1.08, 'h24': -0.46}
+-----
+liquidity: {'usd': 1628149.11, 'base': 527.1091, 'quote': 99.5855}
+-----
+fdv: 1800735992
+-----
+pairCreatedAt: 1678911207000
+-----
+chainId: bsc
+-----
+dexId: pancakeswap
+-----
+url: https://dexscreener.com/bsc/0x7d05c84581f0c41ad80ddf677a510360bae09a5a
+-----
+pairAddress: 0x7d05c84581f0C41AD80ddf677A510360bae09a5A
+-----
+labels: ['v3']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.003406
+-----
+priceUsd: 2979.018
+-----
+txns: {'m5': {'buys': 1, 'sells': 2}, 'h1': {'buys': 60, 'sells': 54}, 'h6': {'buys': 213, 'sells': 265}, 'h24': {'buys': 530, 'sells': 678}}
+-----
+volume: {'h24': 1000559.88, 'h6': 228688.85, 'h1': 18577.05, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0.26, 'h6': -1.15, 'h24': -0.73}
+-----
+liquidity: {'usd': 4067616.26, 'base': 1017.9444, 'quote': 1738.5687}
+-----
+fdv: 1802258934
+-----
+pairCreatedAt: 1680355748000
+-----
+chainId: bsc
+-----
+dexId: uniswap
+-----
+url: https://dexscreener.com/bsc/0xf9878a5dd55edc120fde01893ea713a4f032229c
+-----
+pairAddress: 0xF9878A5dD55EdC120Fde01893ea713a4f032229c
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x55d398326f99059fF775485246999027B3197955', 'name': 'Tether USD', 'symbol': 'USDT'}
+-----
+priceNative: 2981.9610
+-----
+priceUsd: 2981.96
+-----
+txns: {'m5': {'buys': 0, 'sells': 2}, 'h1': {'buys': 17, 'sells': 12}, 'h6': {'buys': 146, 'sells': 125}, 'h24': {'buys': 829, 'sells': 840}}
+-----
+volume: {'h24': 630570.18, 'h6': 133100.07, 'h1': 16293.23, 'm5': 393.46}
+-----
+priceChange: {'m5': -0.02, 'h1': 0.24, 'h6': -0.89, 'h24': -0.54}
+-----
+liquidity: {'usd': 510822.95, 'base': 166.8192, 'quote': 13374}
+-----
+fdv: 1804038916
+-----
+pairCreatedAt: 1680238062000
+-----
+chainId: bsc
+-----
+dexId: pancakeswap
+-----
+url: https://dexscreener.com/bsc/0x74e4716e431f45807dcf19f284c7aa99f18a4fbc
+-----
+pairAddress: 0x74E4716E431f45807DCF19f284c7aA99F18a4fbc
+-----
+labels: ['v2']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.002586
+-----
+priceUsd: 2974.24
+-----
+txns: {'m5': {'buys': 0, 'sells': 1}, 'h1': {'buys': 13, 'sells': 14}, 'h6': {'buys': 222, 'sells': 111}, 'h24': {'buys': 761, 'sells': 588}}
+-----
+volume: {'h24': 205046.15, 'h6': 48523.39, 'h1': 1485.8, 'm5': 198.86}
+-----
+priceChange: {'m5': 0, 'h1': 0.27, 'h6': -1.16, 'h24': -0.55}
+-----
+liquidity: {'usd': 4115031.2, 'base': 691.7766, 'quote': 3460.6725}
+-----
+fdv: 1799372806
+-----
+chainId: bsc
+-----
+dexId: pancakeswap
+-----
+url: https://dexscreener.com/bsc/0xd4dca84e1808da3354924cd243c66828cf775470
+-----
+pairAddress: 0xD4dCA84E1808da3354924cD243c66828cf775470
+-----
+labels: ['v3']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c', 'name': 'BTCB Token', 'symbol': 'BTCB'}
+-----
+priceNative: 0.04870
+-----
+priceUsd: 2972.87
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 1, 'sells': 3}, 'h6': {'buys': 1, 'sells': 11}, 'h24': {'buys': 131, 'sells': 75}}
+-----
+volume: {'h24': 1092638.97, 'h6': 44886.28, 'h1': 11291.53, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0.02, 'h6': -0.96, 'h24': -0.68}
+-----
+liquidity: {'usd': 16839492.76, 'base': 4060.1183, 'quote': 78.1384}
+-----
+fdv: 1798542653
+-----
+pairCreatedAt: 1680355343000
+-----
+chainId: bsc
+-----
+dexId: thena
+-----
+url: https://dexscreener.com/bsc/0xa60a504d92a1c95bda729c3f745b361ca822d6dd
+-----
+pairAddress: 0xa60a504d92a1C95bda729C3F745B361cA822d6dd
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x55d398326f99059fF775485246999027B3197955', 'name': 'Tether USD', 'symbol': 'USDT'}
+-----
+priceNative: 2980.9107
+-----
+priceUsd: 2980.91
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 19, 'sells': 13}, 'h6': {'buys': 50, 'sells': 71}, 'h24': {'buys': 299, 'sells': 292}}
+-----
+volume: {'h24': 821388.3, 'h6': 167286.69, 'h1': 52292.07, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0.25, 'h6': -0.85, 'h24': -0.45}
+-----
+liquidity: {'usd': 758244.18, 'base': 168.2459, 'quote': 256717}
+-----
+fdv: 1803403477
+-----
+chainId: bsc
+-----
+dexId: pancakeswap
+-----
+url: https://dexscreener.com/bsc/0x531febfeb9a61d948c384acfbe6dcc51057aea7e
+-----
+pairAddress: 0x531FEbfeb9a61D948c384ACFBe6dCc51057AEa7e
+-----
+labels: ['v2']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x55d398326f99059fF775485246999027B3197955', 'name': 'Tether USD', 'symbol': 'USDT'}
+-----
+priceNative: 2977.4160
+-----
+priceUsd: 2977.41
+-----
+txns: {'m5': {'buys': 1, 'sells': 0}, 'h1': {'buys': 18, 'sells': 15}, 'h6': {'buys': 76, 'sells': 98}, 'h24': {'buys': 490, 'sells': 443}}
+-----
+volume: {'h24': 125732.3, 'h6': 27451.18, 'h1': 6566.66, 'm5': 200}
+-----
+priceChange: {'m5': 0.06, 'h1': -0.03, 'h6': -1.13, 'h24': -0.55}
+-----
+liquidity: {'usd': 1352207.72, 'base': 227.07738, 'quote': 676103}
+-----
+fdv: 1801289254
+-----
+pairCreatedAt: 1619277331000
+-----
+chainId: bsc
+-----
+dexId: pancakeswap
+-----
+url: https://dexscreener.com/bsc/0x70d8929d04b60af4fb9b58713ebcf18765ade422
+-----
+pairAddress: 0x70D8929d04b60Af4fb9B58713eBcf18765aDE422
+-----
+labels: ['v1']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.004425
+-----
+priceUsd: 2975.34
+-----
+txns: {'m5': {'buys': 3, 'sells': 0}, 'h1': {'buys': 11, 'sells': 5}, 'h6': {'buys': 122, 'sells': 52}, 'h24': {'buys': 328, 'sells': 218}}
+-----
+volume: {'h24': 15657.32, 'h6': 3350.26, 'h1': 135.18, 'm5': 1.19}
+-----
+priceChange: {'m5': 0.17, 'h1': 0.27, 'h6': -1.02, 'h24': -0.56}
+-----
+liquidity: {'usd': 512552.86, 'base': 86.1334, 'quote': 431.0484}
+-----
+fdv: 1800034443
+-----
+chainId: bsc
+-----
+dexId: biswap
+-----
+url: https://dexscreener.com/bsc/0x63b30de1a998e9e64fd58a21f68d323b9bcd8f85
+-----
+pairAddress: 0x63b30de1A998e9E64FD58A21F68D323B9BcD8F85
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x55d398326f99059fF775485246999027B3197955', 'name': 'Tether USD', 'symbol': 'USDT'}
+-----
+priceNative: 2978.7974
+-----
+priceUsd: 2978.79
+-----
+txns: {'m5': {'buys': 0, 'sells': 1}, 'h1': {'buys': 14, 'sells': 7}, 'h6': {'buys': 40, 'sells': 38}, 'h24': {'buys': 284, 'sells': 202}}
+-----
+volume: {'h24': 131975.97, 'h6': 25892.55, 'h1': 9519.71, 'm5': 7.66}
+-----
+priceChange: {'m5': 0, 'h1': 0.24, 'h6': -0.92, 'h24': -0.55}
+-----
+liquidity: {'usd': 3187653.8, 'base': 535.05716, 'quote': 1593826}
+-----
+fdv: 1802124951
+-----
+pairCreatedAt: 1621793962000
+-----
+chainId: bsc
+-----
+dexId: pancakeswap
+-----
+url: https://dexscreener.com/bsc/0xea26b78255df2bbc31c1ebf60010d78670185bd0
+-----
+pairAddress: 0xEa26B78255Df2bBC31C1eBf60010D78670185bD0
+-----
+labels: ['v2']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d', 'name': 'USD Coin', 'symbol': 'USDC'}
+-----
+priceNative: 2975.1219
+-----
+priceUsd: 2975.12
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 6, 'sells': 5}, 'h6': {'buys': 25, 'sells': 47}, 'h24': {'buys': 141, 'sells': 123}}
+-----
+volume: {'h24': 29266.63, 'h6': 8403.66, 'h1': 1496.32, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0.11, 'h6': -1.03, 'h24': -0.63}
+-----
+liquidity: {'usd': 531725.26, 'base': 89.3619, 'quote': 265862}
+-----
+fdv: 1799901328
+-----
+pairCreatedAt: 1619380346000
+-----
+chainId: bsc
+-----
+dexId: orion
+-----
+url: https://dexscreener.com/bsc/0x21fb1e55ac7f1d205f18a3f7b37b63db4da5b628
+-----
+pairAddress: 0x21Fb1e55AC7F1d205f18A3F7b37b63DB4dA5b628
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x55d398326f99059fF775485246999027B3197955', 'name': 'Tether USD', 'symbol': 'USDT'}
+-----
+priceNative: 2973.6930
+-----
+priceUsd: 2973.69
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 9, 'sells': 5}, 'h6': {'buys': 9, 'sells': 27}, 'h24': {'buys': 119, 'sells': 66}}
+-----
+volume: {'h24': 65589.4, 'h6': 12751.4, 'h1': 5897.82, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0, 'h6': -1.04, 'h24': -0.74}
+-----
+liquidity: {'usd': 2611841.76, 'base': 439.1579, 'quote': 1305920}
+-----
+fdv: 1799036865
+-----
+pairCreatedAt: 1648016406000
+-----
+chainId: bsc
+-----
+dexId: biswap
+-----
+url: https://dexscreener.com/bsc/0x5bf6941f029424674bb93a43b79fc46bf4a67c21
+-----
+pairAddress: 0x5bf6941f029424674bb93A43b79fc46bF4A67c21
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.005439
+-----
+priceUsd: 2970.89
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 0, 'sells': 1}, 'h6': {'buys': 33, 'sells': 15}, 'h24': {'buys': 154, 'sells': 107}}
+-----
+volume: {'h24': 12240.52, 'h6': 2652.82, 'h1': 0.03, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0.05, 'h6': -1.14, 'h24': -0.69}
+-----
+liquidity: {'usd': 498704.11, 'base': 83.9316, 'quote': 420.1148}
+-----
+fdv: 1797343404
+-----
+pairCreatedAt: 1622011937000
+-----
+chainId: bsc
+-----
+dexId: uniswap
+-----
+url: https://dexscreener.com/bsc/0x17507bef4c3abc1bc715be723ee1baf571256e05
+-----
+pairAddress: 0x17507bEF4c3abC1Bc715be723eE1baF571256E05
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d', 'name': 'USD Coin', 'symbol': 'USDC'}
+-----
+priceNative: 2972.5072
+-----
+priceUsd: 2972.50
+-----
+txns: {'m5': {'buys': 1, 'sells': 0}, 'h1': {'buys': 7, 'sells': 4}, 'h6': {'buys': 12, 'sells': 18}, 'h24': {'buys': 77, 'sells': 57}}
+-----
+volume: {'h24': 4313.32, 'h6': 1027.2, 'h1': 387.62, 'm5': 4.95}
+-----
+priceChange: {'m5': 0.01, 'h1': -0.04, 'h6': -0.95, 'h24': -0.83}
+-----
+liquidity: {'usd': 239086.28, 'base': 6.3685, 'quote': 220155}
+-----
+fdv: 1798319481
+-----
+pairCreatedAt: 1678735471000
+-----
+chainId: bsc
+-----
+dexId: nomiswap
+-----
+url: https://dexscreener.com/bsc/0x13de257cb86a08753df938b6ad30d1a456a863e6
+-----
+pairAddress: 0x13dE257cb86a08753Df938b6ad30d1A456A863e6
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.003431
+-----
+priceUsd: 2974.30
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 2, 'sells': 13}, 'h6': {'buys': 475, 'sells': 73}, 'h24': {'buys': 962, 'sells': 395}}
+-----
+volume: {'h24': 10109.61, 'h6': 2049.15, 'h1': 170.03, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0.24, 'h6': -1.11, 'h24': -0.46}
+-----
+liquidity: {'usd': 130192.54, 'base': 21.8862, 'quote': 109.5061}
+-----
+fdv: 1799406707
+-----
+pairCreatedAt: 1642009124000
+-----
+chainId: bsc
+-----
+dexId: apeswap
+-----
+url: https://dexscreener.com/bsc/0xa0c3ef24414ed9c9b456740128d8e63d016a9e11
+-----
+pairAddress: 0xA0C3Ef24414ED9C9B456740128d8E63D016A9e11
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.005860
+-----
+priceUsd: 2972.54
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 5, 'sells': 4}, 'h6': {'buys': 63, 'sells': 53}, 'h24': {'buys': 209, 'sells': 183}}
+-----
+volume: {'h24': 7143.37, 'h6': 790.19, 'h1': 25.22, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0.17, 'h6': -1.09, 'h24': -0.64}
+-----
+liquidity: {'usd': 130984.04, 'base': 22.0323, 'quote': 110.2906}
+-----
+fdv: 1798342138
+-----
+chainId: bsc
+-----
+dexId: mdex
+-----
+url: https://dexscreener.com/bsc/0x0fb881c078434b1c0e4d0b64d8c64d12078b7ce2
+-----
+pairAddress: 0x0FB881c078434b1C0E4d0B64d8c64d12078b7Ce2
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x55d398326f99059fF775485246999027B3197955', 'name': 'Tether USD', 'symbol': 'USDT'}
+-----
+priceNative: 2973.7269
+-----
+priceUsd: 2973.72
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 4, 'sells': 1}, 'h6': {'buys': 30, 'sells': 20}, 'h24': {'buys': 112, 'sells': 46}}
+-----
+volume: {'h24': 2369.1, 'h6': 429.05, 'h1': 147.1, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': -0.06, 'h6': -0.99, 'h24': -0.77}
+-----
+liquidity: {'usd': 101592.72, 'base': 17.08171, 'quote': 50796}
+-----
+fdv: 1799057382
+-----
+chainId: bsc
+-----
+dexId: iziswap
+-----
+url: https://dexscreener.com/bsc/0x8b059170f5d4d85d13ae3cabd9b03abfbb2de829
+-----
+pairAddress: 0x8B059170F5d4D85D13aE3caBd9b03AbFbB2DE829
+-----
+labels: ['V2']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x55d398326f99059fF775485246999027B3197955', 'name': 'Tether USD', 'symbol': 'USDT'}
+-----
+priceNative: 3048.1471
+-----
+priceUsd: 3048.14
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 0, 'sells': 0}, 'h6': {'buys': 0, 'sells': 0}, 'h24': {'buys': 0, 'sells': 4}}
+-----
+volume: {'h24': 0.01, 'h6': 0, 'h1': 0, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0, 'h6': 0, 'h24': -1.23}
+-----
+liquidity: {'usd': 95771.32, 'base': 0.202, 'quote': 95155}
+-----
+fdv: 1844080416
+-----
+pairCreatedAt: 1697550325000
+-----
+chainId: bsc
+-----
+dexId: 0x571521f8c16f3c4eD5f2490f19187bA7A5A3CBDf
+-----
+url: https://dexscreener.com/bsc/0x5de4c0980bcf4f78b3912eb9ef2e3be6c61fb7e5
+-----
+pairAddress: 0x5DE4c0980BcF4f78b3912eB9Ef2e3bE6c61fB7E5
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 'name': 'BUSD Token', 'symbol': 'BUSD'}
+-----
+priceNative: 2991.4906
+-----
+priceUsd: 2991.49
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 0, 'sells': 0}, 'h6': {'buys': 0, 'sells': 0}, 'h24': {'buys': 2, 'sells': 1}}
+-----
+volume: {'h24': 0.05, 'h6': 0, 'h1': 0, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0, 'h6': 0, 'h24': -0.55}
+-----
+liquidity: {'usd': 84730.76, 'base': 27.01988, 'quote': 3901.02909}
+-----
+fdv: 1809804152
+-----
+pairCreatedAt: 1633838757000
+-----
+chainId: bsc
+-----
+dexId: mdex
+-----
+url: https://dexscreener.com/bsc/0x82e8f9e7624fa038dff4a39960f5197a43fa76aa
+-----
+pairAddress: 0x82E8F9e7624fA038DfF4a39960F5197A43fa76aa
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.002455
+-----
+priceUsd: 2962.91
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 0, 'sells': 0}, 'h6': {'buys': 10, 'sells': 14}, 'h24': {'buys': 54, 'sells': 59}}
+-----
+volume: {'h24': 1267.86, 'h6': 266.31, 'h1': 0, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0, 'h6': -1.14, 'h24': -0.85}
+-----
+liquidity: {'usd': 70099.76, 'base': 11.8295, 'quote': 59.1766}
+-----
+fdv: 1792517294
+-----
+chainId: bsc
+-----
+dexId: 0x7897C32cbda1935e97c0B59F244747562D4d97c1
+-----
+url: https://dexscreener.com/bsc/0xf7efddfcda24efd1c1a48dc9ceff6004a7c0f1bb
+-----
+pairAddress: 0xf7efDdFcda24EfD1c1a48DC9ceFf6004a7C0F1bb
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x55d398326f99059fF775485246999027B3197955', 'name': 'Tether USD', 'symbol': 'USDT'}
+-----
+priceNative: 2975.6478
+-----
+priceUsd: 2975.64
+-----
+txns: {'m5': {'buys': 1, 'sells': 0}, 'h1': {'buys': 6, 'sells': 1}, 'h6': {'buys': 6, 'sells': 17}, 'h24': {'buys': 98, 'sells': 89}}
+-----
+volume: {'h24': 1789.06, 'h6': 290.51, 'h1': 129.39, 'm5': 1.86}
+-----
+priceChange: {'m5': 0.01, 'h1': 0.03, 'h6': -0.99, 'h24': -0.61}
+-----
+liquidity: {'usd': 62758.7, 'base': 10.5453, 'quote': 31379}
+-----
+fdv: 1800219540
+-----
+pairCreatedAt: 1627635476000
+-----
+chainId: bsc
+-----
+dexId: 0x3657952d7bA5A0A4799809b5B6fdfF9ec5B46293
+-----
+url: https://dexscreener.com/bsc/0x8485c5f255ff30aafab0030329e508bd8dde11c5
+-----
+pairAddress: 0x8485c5f255FF30AafaB0030329e508BD8dDE11c5
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.001970
+-----
+priceUsd: 2963.75
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 0, 'sells': 0}, 'h6': {'buys': 5, 'sells': 18}, 'h24': {'buys': 38, 'sells': 68}}
+-----
+volume: {'h24': 968.15, 'h6': 215.32, 'h1': 0, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0, 'h6': -1.11, 'h24': -0.81}
+-----
+liquidity: {'usd': 57044.34, 'base': 9.6236, 'quote': 48.1373}
+-----
+fdv: 1793022930
+-----
+chainId: bsc
+-----
+dexId: iziswap
+-----
+url: https://dexscreener.com/bsc/0x3ae7e29860c0c10ca5bd234dee24e937e95e3c0e
+-----
+pairAddress: 0x3ae7E29860C0c10cA5bD234DEe24E937e95e3C0E
+-----
+labels: ['V2']
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x14778860E937f509e651192a90589dE711Fb88a9', 'name': 'CyberConnect', 'symbol': 'CYBER'}
+-----
+priceNative: 373.2563
+-----
+priceUsd: 3076.97
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 0, 'sells': 0}, 'h6': {'buys': 1, 'sells': 0}, 'h24': {'buys': 1, 'sells': 4}}
+-----
+volume: {'h24': 2264.88, 'h6': 395.28, 'h1': 0, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0, 'h6': 2.5, 'h24': 1.14}
+-----
+liquidity: {'usd': 59406.56, 'base': 3.3743, 'quote': 5946.8933}
+-----
+fdv: 1861523111
+-----
+pairCreatedAt: 1698813068000
+-----
+chainId: bsc
+-----
+dexId: babyswap
+-----
+url: https://dexscreener.com/bsc/0xfa0c1bd534784b978b4d5c426836f7c44f5c0b20
+-----
+pairAddress: 0xfa0C1bD534784b978b4d5c426836f7c44f5C0b20
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0x55d398326f99059fF775485246999027B3197955', 'name': 'Tether USD', 'symbol': 'USDT'}
+-----
+priceNative: 2976.2762
+-----
+priceUsd: 2976.27
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 4, 'sells': 1}, 'h6': {'buys': 5, 'sells': 17}, 'h24': {'buys': 122, 'sells': 80}}
+-----
+volume: {'h24': 1465.96, 'h6': 254.95, 'h1': 131.82, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0.03, 'h6': -0.97, 'h24': -0.62}
+-----
+liquidity: {'usd': 48786.92, 'base': 8.1959, 'quote': 24393}
+-----
+fdv: 1800599685
+-----
+pairCreatedAt: 1622556499000
+-----
+chainId: bsc
+-----
+dexId: bakeryswap
+-----
+url: https://dexscreener.com/bsc/0xa50b9c5db61c855d5939aa1a66b26df77745809b
+-----
+pairAddress: 0xa50b9c5DB61C855D5939aa1a66B26Df77745809b
+-----
+baseToken: {'address': '0x2170Ed0880ac9A755fd29B2688956BD959F933F8', 'name': 'Ethereum Token', 'symbol': 'ETH'}
+-----
+quoteToken: {'address': '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c', 'name': 'Wrapped BNB', 'symbol': 'WBNB'}
+-----
+priceNative: 5.002936
+-----
+priceUsd: 2964.31
+-----
+txns: {'m5': {'buys': 0, 'sells': 0}, 'h1': {'buys': 0, 'sells': 0}, 'h6': {'buys': 18, 'sells': 14}, 'h24': {'buys': 41, 'sells': 58}}
+-----
+volume: {'h24': 738, 'h6': 164.89, 'h1': 0, 'm5': 0}
+-----
+priceChange: {'m5': 0, 'h1': 0, 'h6': -1.09, 'h24': -0.98}
+-----
+liquidity: {'usd': 45948.75, 'base': 7.7503, 'quote': 38.7743}
+-----
+fdv: 1793364602
+-----

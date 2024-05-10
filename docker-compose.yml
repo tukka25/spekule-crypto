@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: ./frontend/
+    image: nginx
+    container_name: frontend
+    ports:
+      - 8887:8887
+    volumes:
+      - frontend-vol:/var/www/html
+      - ./frontend/srcs/:/var/www/html/
+    restart:
+      on-failure

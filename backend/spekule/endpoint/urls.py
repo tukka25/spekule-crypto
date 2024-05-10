@@ -10,6 +10,7 @@ urlpatterns = [
 	path("uniswap", views.Uniswap, name="uniswap"),
 	path("jupiter", views.Jupiter, name="jupiter"),
 	path("tradingView", views.tradingView, name="tradingView"),
+	path("dexScreener", views.dexScreener, name="dexScreener"),
 	# path("authenticate/", views.authenticateUser, name="authenticateUser"),
 
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
