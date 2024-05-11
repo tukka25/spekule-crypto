@@ -82,6 +82,7 @@ def tradingView(request):
 
 @csrf_exempt
 def dexScreener(request):
+	my_dict = {}
 	if (request.method != "POST"):
 		return (JsonResponse({'status':'unauthorized'}, status=401))
 	try:
@@ -109,9 +110,19 @@ def dexScreener(request):
 		print(response.status_code)
 		if (response.status_code == 200):
 			data = response.json()
-			return (JsonResponse({'status': 'success', 'data': data}, status=200))
+			print(f"data = {data}")
+			for pair in data['pairs']:
+				txns = pair['txns']
+				# print(f"txns = {txns}")
+				for period, txn_data in txns.items():
+					my_dict[period] = txn_data
+					# my_dict[period] = txn_data
+					print (f"period = {period}, buys = {txn_data['buys']}, sells = {txn_data['sells']}")
+			# for key, value in my_dict.items():
+			# 	dict[key] = dict(value)
+			return (JsonResponse({'status': 'success', 'data': my_dict}, status=200))
 		return (JsonResponse({'status': 'hello'}, status=400))
 	except Exception as err:
-		# print(str(err))
+		print(str(err))
 		return (JsonResponse({'status': str(err)}, status=401))
 	

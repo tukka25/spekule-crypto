@@ -4,8 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <style>
+	/* .th { 
+        color:#fff;
+    } */
 	.body {
 		background-color: rgb(236, 118, 236);
 		justify-content: center;
@@ -32,7 +36,35 @@
 		border: none;
 		border-radius: 4px;
 	}
+	.table-box {
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		padding: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		max-height: 200px; /* Set the maximum height for the table */
+		overflow-y: auto; /* Enable vertical scrolling */
+		position: absolute;
+		left: 35%;
+		top: 40%;
+	}
+
+	.table {
+	width: 100%;
+	border-collapse: collapse;
+	}
+
+	.table th,
+	.table td {
+	padding: 8px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+	}
+
+	.table th {
+	background-color: #f2f2f2;
+	}
 </style>
+
 <body class="body">
 	<div class="form">
 		<form onsubmit=getPricefromAPI()>
@@ -40,7 +72,23 @@
 			<input type="submit" value="Submit" class="submit">
 		</form>
 	</div>
+	<div class="table-box">
+		<table class="table table-striped">
+		  <thead class="bg-info">
+			<tr>
+			  <th>5 minutes</th>
+			  <th>1 hour</th>
+			  <th>6 hours</th>
+			  <th>24 hours</th>
+			</tr>
+		  </thead>
+		  <tbody id="myTable">
+	
+		  </tbody>
+		</table>
+	  </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 	var element = document.getElementById("name");
 	// document.preventDefault();
@@ -48,6 +96,31 @@
 	document.addEventListener('submit', function(event) {
 		event.preventDefault();
 	});
+
+	function buildTable(data)
+	{
+		var table = document.getElementById('myTable')
+		// console.log(data);
+		var row = "";
+		for (var period in data) {
+			if (data.hasOwnProperty(period)) {
+				// Access the value for the current key (period)
+				var txnData = data[period];
+
+				// Print the key (period) and its corresponding value (txnData)
+				// console.log(`${period}:`);
+				// console.log(`buys: ${txnData.buys}, sells: ${txnData.sells}`);
+				// console.log(''); // Add an empty line for clarity
+				row += "<td>" + txnData.buys + "buys , " + txnData.sells + " sells" + "</td>";
+			}
+			// var row = `<tr>
+			// 		<td>${txnData.buys + "buys , " + txnData.sells + " sells"}</td>
+			//   </tr>`
+			// }
+		}
+		table.innerHTML += "`<tr>" + row + "</tr>`";
+	}
+
 	async function getPricefromAPI() {
 		console.log(element.value);
 		bodY = {'token': element.value}
@@ -67,8 +140,10 @@
 		{
 			throw data["error_message"];
 		}
-		console.log(data["status"]);
-		console.log(data["data"]);
+		// console.log(data["status"]);
+		// console.log(data["data"]);
+		console.log("sddssd");
+		buildTable(data["data"])
 	}
 </script>
 </html>
